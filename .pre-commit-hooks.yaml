@@ -1,0 +1,6 @@
+-   id: check-code-style
+    name: Check code style
+    description: This hook checks code style
+    entry: checkstyle.sh
+    language: script
+    files: \.java$
